@@ -186,3 +186,9 @@ html, body {height: 100%;
   font-weight: bold;
   margin-top: 30px;
 }
+.project-image{
+
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}

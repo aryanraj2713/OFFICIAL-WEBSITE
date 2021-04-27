@@ -300,6 +300,18 @@ h4{
   transform: scale(1.5);
 }
 
+.fa {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 20px !important;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: white;
+  color: black;
+}
+
 footer{
   overflow-x: hidden !important;
 }

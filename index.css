@@ -408,6 +408,18 @@ footer{
     padding-right: 30px !important;
   }
 
+  .slogan{
+    height:100px;
+  }
+
+
+  .column {
+    float: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+
   
 
 }

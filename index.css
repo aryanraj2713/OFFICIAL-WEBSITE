@@ -454,6 +454,11 @@ footer{
     overflow-x: hidden !important;
   }
 
+  .firstbutton{
+    margin-left:0px;
+    z-index:2;
+  }
+
   
 
 }

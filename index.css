@@ -369,6 +369,10 @@ footer{
     height:00px;
   }
 
+  .flips{
+    display: block;
+  }
+
   
 
 }

@@ -337,4 +337,15 @@ footer{
       width: 100%;
   }
 
+  .two{
+    background-image: url("hero2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+      height:300px;
+      width: 100%;
+  }
+
+  
+
 }

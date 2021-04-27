@@ -13,3 +13,27 @@ html, body {height: 100%;
   height:65px;
   width:130px;
 }
+.firstbutton{
+  margin-left:729px;
+  background-color: #FFC222;
+  transition: background-color 0.75s ease;
+}
+.firstbutton:hover{
+  background-color:#515356;
+}
+.secondbutton{
+  background-color: #C88A12;
+  transition: background-color 0.75s ease;
+}
+.secondbutton:hover{
+  background-color:#515356;
+}
+.thirdbutton{
+  background-color:#515356;
+}
+.nav-item{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}

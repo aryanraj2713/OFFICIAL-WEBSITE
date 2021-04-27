@@ -261,3 +261,13 @@ h4{
   clear: both;
   display: table;
 }
+
+.imz:hover{
+  opacity: 0.4;
+  transition: 0.5s ease;
+  transform: scale(1.3);
+
+}
+.project-cards{
+  overflow-x: hidden !important;
+}

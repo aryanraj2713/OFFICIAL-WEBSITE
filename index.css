@@ -514,6 +514,8 @@ footer{
   .secondbutton{
     z-index:2;
   }
-  
+  .thirdbutton{
+    z-index:2;
+  }
 
 }

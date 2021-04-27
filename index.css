@@ -37,3 +37,16 @@ html, body {height: 100%;
   padding-left: 40px;
   padding-right: 40px;
 }
+.hero-text{
+  color: white;
+  padding-top: 30px;
+
+}
+.one{
+  background-image: url("2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+    height:400px;
+    width: 100%;
+}

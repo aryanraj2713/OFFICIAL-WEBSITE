@@ -223,3 +223,13 @@ justify-content: center;
   color: #515356;
   transform: rotateY(180deg);
 }
+
+hr{
+  background-color: white;
+  width:80%;
+}
+h4{
+  color:#515356;
+  font-weight:bold !important;
+  font-size:1.7rem !important;
+}

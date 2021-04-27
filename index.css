@@ -147,3 +147,15 @@ html, body {height: 100%;
   transform: scale(1.3);
 
 }
+
+.slogan{
+  height:200px;
+  background-color: #FFC222;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.slo{
+  color:#515356;
+  text-align: center;
+  padding-top: 70px;
+}

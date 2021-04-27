@@ -450,6 +450,10 @@ footer{
     margin-right: auto;
   }
 
+  body{
+    overflow-x: hidden !important;
+  }
+
   
 
 }

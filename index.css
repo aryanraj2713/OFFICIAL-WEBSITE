@@ -346,6 +346,15 @@ footer{
       width: 100%;
   }
 
+  .three{
+    background-image: url("3.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+      height:300px;
+      width: 100%;
+  }
+
   
 
 }

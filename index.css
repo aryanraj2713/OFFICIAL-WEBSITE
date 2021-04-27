@@ -271,3 +271,17 @@ h4{
 .project-cards{
   overflow-x: hidden !important;
 }
+
+.button1 {
+  background-color: #FFC222;
+  border: none;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 40px;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}

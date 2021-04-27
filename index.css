@@ -291,3 +291,11 @@ h4{
   padding-left: 50px;
   padding-right: 50px;
 }
+
+.button1:hover {
+  background-color: white;
+  color: #FFC222;
+  border:1px solid #FFC222;
+  transition: 0.5s ease;
+  transform: scale(1.5);
+}

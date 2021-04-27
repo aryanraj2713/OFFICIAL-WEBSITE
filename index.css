@@ -323,3 +323,11 @@ h4{
 footer{
   overflow-x: hidden !important;
 }
+
+
+/* Responsiveness */
+@media only screen and (max-width: 500px) {
+
+
+
+}

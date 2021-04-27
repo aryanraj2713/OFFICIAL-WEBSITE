@@ -159,3 +159,11 @@ html, body {height: 100%;
   text-align: center;
   padding-top: 70px;
 }
+
+.flip-card {
+  background-color: transparent;
+  width: 390px;
+  height: 440px;
+  perspective: 1000px;
+  padding: 15px;
+}

@@ -373,6 +373,12 @@ footer{
     display: block;
   }
 
+  .column-1{
+    width:100%;
+    float: none;
+    padding-left: 20px;
+  }
+
   
 
 }

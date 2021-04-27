@@ -396,6 +396,18 @@ footer{
     font-size: 1.5rem !important;
   }
 
+  iframe{
+    height: 200px;
+    width: 200px;
+    margin-left: 25% !important;
+  }
+
+
+  .footer-middle{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
   
 
 }

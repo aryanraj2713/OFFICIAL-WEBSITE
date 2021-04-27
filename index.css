@@ -492,5 +492,8 @@ footer{
     padding-top:10px;
     padding-left: 20px;
   }
+  .slo {
+    font-size: 2.5rem !important;
+  }
 
 }

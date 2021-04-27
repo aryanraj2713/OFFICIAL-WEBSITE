@@ -212,3 +212,14 @@ justify-content: center;
 align-items: center;
 justify-content: center;
 }
+
+.flips{
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+.flip-card-back {
+  background-color: #FFc222;
+  color: #515356;
+  transform: rotateY(180deg);
+}

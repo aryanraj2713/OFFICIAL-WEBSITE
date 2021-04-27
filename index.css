@@ -233,3 +233,9 @@ h4{
   font-weight:bold !important;
   font-size:1.7rem !important;
 }
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}

@@ -299,3 +299,7 @@ h4{
   transition: 0.5s ease;
   transform: scale(1.5);
 }
+
+footer{
+  overflow-x: hidden !important;
+}

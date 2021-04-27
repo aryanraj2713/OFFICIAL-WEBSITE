@@ -107,3 +107,17 @@ html, body {height: 100%;
   display: table;
   clear: both;
 }
+.column-1{
+  width:50%;
+  float:left;
+}
+.column-2{
+  width:50%;
+  float:right;
+  padding-top:10px;
+}
+.row-1:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -4,3 +4,12 @@
 html, body {height: 100%;
   scroll-behavior: smooth;
 }
+.navbar{
+  background-color: white !important;
+  height:100px;
+  font-weight:bold;
+}
+.main-logo{
+  height:65px;
+  width:130px;
+}

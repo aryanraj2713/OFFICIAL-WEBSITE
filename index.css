@@ -328,6 +328,13 @@ footer{
 /* Responsiveness */
 @media only screen and (max-width: 500px) {
 
-
+  .one{
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+      height:300px;
+      width: 100%;
+  }
 
 }

@@ -200,3 +200,9 @@ html, body {height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+.flip-card-front {
+  background-color: white;
+  display: flex;
+align-items: center;
+justify-content: center;
+}

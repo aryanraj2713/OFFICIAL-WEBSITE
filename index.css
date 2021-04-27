@@ -427,6 +427,10 @@ footer{
     margin-right: auto;
   }
 
+  .hero-image-heading{
+    font-size: 3.5rem !important;
+  }
+
   
 
 }

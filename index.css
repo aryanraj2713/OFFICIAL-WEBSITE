@@ -141,3 +141,9 @@ html, body {height: 100%;
   margin-right: auto;
   box-shadow: 0px 0px 20px black;
 }
+.webinar-image:hover{
+  opacity: 0.4;
+  transition: 0.5s ease;
+  transform: scale(1.3);
+
+}

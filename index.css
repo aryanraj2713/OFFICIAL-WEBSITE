@@ -511,6 +511,9 @@ footer{
     margin-left:0px;
     z-index:2;
   }
+  .secondbutton{
+    z-index:2;
+  }
   
 
 }

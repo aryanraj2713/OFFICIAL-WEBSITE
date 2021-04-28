@@ -184,3 +184,12 @@ h2{
   color: #515356;
   font-size: 15px;
 }
+
+.heading{
+  text-align: center;
+}
+
+.display-3{
+  text-align: center;
+  color: black;
+}

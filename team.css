@@ -172,3 +172,10 @@ h2{
   margin-bottom: 16px;
   padding: 0 8px;
 }
+
+.column4{
+  float: left;
+  width: 16%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}

@@ -76,3 +76,15 @@ h4{
   font-weight:bold !important;
   font-size:1.7rem !important;
 }
+
+.slogan{
+  height:200px;
+  background-color: #FFC222;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.slo{
+  color:#515356;
+  text-align: center;
+  padding-top: 70px;
+}

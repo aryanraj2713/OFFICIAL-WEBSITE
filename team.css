@@ -28,3 +28,8 @@ html, body {
 .firstbutton:hover{
   background-color:#515356;
 }
+
+.secondbutton{
+  background-color: #C88A12;
+  transition: background-color 0.75s ease;
+}

@@ -102,3 +102,8 @@ img{
    border-radius: 50%;
    height:125px;
 }
+
+.row-slider{
+  padding-left: 100px;
+  padding-right: 100px;
+}

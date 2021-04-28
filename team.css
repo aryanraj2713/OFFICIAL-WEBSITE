@@ -129,3 +129,17 @@ img{
   clear: both;
   display: table;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  /* background-color: #A3CEF1; */
+    overflow-x: hidden;
+  background-color: white;
+}
+
+h2{
+  font-size: 20px !important;
+}

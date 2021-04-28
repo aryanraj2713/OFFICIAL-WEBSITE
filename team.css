@@ -33,3 +33,7 @@ html, body {
   background-color: #C88A12;
   transition: background-color 0.75s ease;
 }
+
+.secondbutton:hover{
+  background-color:#515356;
+}

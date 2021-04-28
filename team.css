@@ -123,3 +123,9 @@ img{
   display:flex;
   justify-content:center;
 }
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

@@ -83,6 +83,7 @@ h4{
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .slo{
   color:#515356;
   text-align: center;
@@ -94,4 +95,10 @@ h4{
   transition: 0.5s ease;
   transform: scale(1.2);
 
+}
+img{
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 50%;
+   height:125px;
 }

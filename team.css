@@ -12,3 +12,9 @@ html, body {
   height:100px;
   font-weight:bold;
 }
+
+.main-logo{
+  border-radius: 0 !important;
+  height:65px;
+  width:130px;
+}

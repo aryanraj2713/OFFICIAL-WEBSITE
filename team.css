@@ -179,3 +179,8 @@ h2{
   margin-bottom: 16px;
   padding: 0 8px;
 }
+
+.title {
+  color: #515356;
+  font-size: 15px;
+}

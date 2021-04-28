@@ -18,3 +18,9 @@ html, body {
   height:65px;
   width:130px;
 }
+
+.firstbutton{
+  margin-left:729px;
+  background-color: #FFC222;
+  transition: background-color 0.75s ease;
+}

@@ -66,3 +66,13 @@ html, body {
     height:430px;
     margin-bottom: 100px;
 }
+
+hr{
+  background-color: white;
+  width:80%;
+}
+h4{
+  color:#515356;
+  font-weight:bold !important;
+  font-size:1.7rem !important;
+}

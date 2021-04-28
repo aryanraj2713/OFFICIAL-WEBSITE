@@ -165,3 +165,10 @@ h2{
   margin-bottom: 16px;
   padding: 0 8px;
 }
+
+.column3{
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}

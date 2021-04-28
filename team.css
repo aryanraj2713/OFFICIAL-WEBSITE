@@ -6,3 +6,9 @@
 html, body {
   height: 100%;
 }
+
+.navbar{
+  background-color: white !important;
+  height:100px;
+  font-weight:bold;
+}

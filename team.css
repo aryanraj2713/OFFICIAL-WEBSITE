@@ -246,5 +246,9 @@ footer{
     width: 200px;
     margin-left: 25% !important;
   }
+  .footer-middle{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
 
 }

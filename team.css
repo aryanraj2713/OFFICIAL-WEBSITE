@@ -210,3 +210,11 @@ footer{
   color: black;
   margin-bottom: 10px;
 }
+
+.fa:hover{
+  color: white;
+  background: black;
+  text-decoration: none;
+  transition: 0.5s ease;
+  transform: scale(1.1);
+}

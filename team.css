@@ -297,5 +297,11 @@ footer{
     padding-left: 80px;
     padding-right: 80px;
   }
+  .fa-linkedin{
+    margin-left: 8px;
+  }
+  .firstbutton{
+    margin-left:0px;
+  }
 
 }

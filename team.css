@@ -265,6 +265,15 @@ footer{
     margin-left: auto;
     margin-right: auto;
   }
+  .hero-image-heading{
+    font-size: 3.5rem !important;
+  }
+  .counter {
+    font-size: 2.5rem !important;
+  }
+  .counter-description{
+    font-size: 1rem !important;
+  }
   
 
 }

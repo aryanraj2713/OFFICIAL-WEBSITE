@@ -350,5 +350,11 @@ footer{
    body{
      overflow-x: hidden !important;
    }
+   .fa-linkedin{
+     margin-left: 18px;
+   }
+   .firstbutton{
+     margin-left:0px;
+   }
 
 }

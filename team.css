@@ -335,5 +335,8 @@ footer{
   .video{
     width:70% !important;
    }
+   .slo {
+     font-size: 2.5rem !important;
+   }
 
 }

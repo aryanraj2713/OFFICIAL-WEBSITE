@@ -308,6 +308,9 @@ footer{
 
 @media screen and (min-width:501px) and (max-width:1000px) {
 
-
+  .row-slider{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 
 }

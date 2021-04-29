@@ -283,5 +283,12 @@ footer{
     margin-left: auto;
     margin-right: auto;
   }
+  body{
+    overflow-x: hidden !important;
+  }
+  .column2 {
+    width: 62%;
+    display: block;
+  }
 
 }

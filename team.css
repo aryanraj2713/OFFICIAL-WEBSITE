@@ -218,3 +218,10 @@ footer{
   transition: 0.5s ease;
   transform: scale(1.1);
 }
+
+/* Responsiveness */
+@media only screen and (max-width: 500px) {
+
+
+
+}

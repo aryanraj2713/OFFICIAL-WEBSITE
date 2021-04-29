@@ -290,5 +290,12 @@ footer{
     width: 62%;
     display: block;
   }
+  h1{
+    font-size: 2rem !important;
+  }
+  .row-slider{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
 
 }

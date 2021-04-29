@@ -323,5 +323,11 @@ footer{
     float: none;
     padding-left: 20px;
   }
+  .column-2{
+    width:100%;
+    float:none;
+    padding-top:10px;
+    padding-left: 20px;
+  }
 
 }

@@ -234,5 +234,12 @@ footer{
     padding-left: 20px;
     padding-right: 20px;
   }
+  .about{
+    font-size: 3rem !important;
+  }
+  .slo {
+    padding-top: 40px;
+    font-size: 1.5rem !important;
+  }
 
 }

@@ -338,5 +338,8 @@ footer{
    .slo {
      font-size: 2.5rem !important;
    }
+   .footer-middle{
+     padding-left: 10px !important;
+   }
 
 }

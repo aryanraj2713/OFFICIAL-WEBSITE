@@ -341,5 +341,11 @@ footer{
    .footer-middle{
      padding-left: 10px !important;
    }
+   .webinar-image{
+     height:500px;
+     width: 40%;
+     margin-left: auto;
+     margin-right: auto;
+   }
 
 }

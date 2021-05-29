@@ -1,109 +1,115 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="team.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <title></title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>TEAM</title>
+    <link rel="shortcut icon" type="image/>png" href="black1.png"/ >
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Add icon library -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <style>
 
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
 
-    <style>
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
 
-    .swiper-container {
-      width: 100%;
-      height: 100%;
-    }
-
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-    }
-    </style>
-  </head>
-  <body>
-
-    <nav class="navbar navbar-expand-xl navbar-light bg-lignt">
-      <a class="navbar-brand" href="#"><img src="black.png" alt="" class="main-logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item firstbutton">
-            <a class="nav-link" href="index.html" style="color:white;">HOME</a>
-          </li>
-          <li class="nav-item secondbutton">
-            <a class="nav-link" href="#" style="color:white;">PROJECTS</a>
-          </li>
-          <li class="nav-item thirdbutton">
-            <a class="nav-link" href="#" style="color:white;">TEAM</a>
-          </li>
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-xl navbar-light bg-lignt">
+      <a class="navbar-brand" href="index.html"><img src="black.png" alt="" class="main-logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item firstbutton dropdown" >
+          <a class="nav-link" href="#" style="color:white;"  data-toggle="dropdown" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PROJECTS</a>
+        <ul class="dropdown-menu" role="menu" style="background-color:#515356">
+           <li style="text-align:center;"><a class="hover" target="_blank" style="color:white;" href="project.html" >JALADHI</a></li>
+           <li style="text-align:center;"><a class="hover" target="_blank" style="color:white;" href="project_parikrit.html" >PRAKRIT</a></li>
+           <li style="text-align:center;"><a class="hover" target="_blank" style="color:white;" href="project_flylife.html">FLYLIFE</a></li>
         </ul>
-      </div>
-    </nav>
+        </li>
+        <li class="nav-item secondbutton">
+          <a class="nav-link" href="index.html" style="color:white;">HOME</a>
+        </li>
+        <li class="nav-item thirdbutton">
+          <a class="nav-link" href="#" style="color:white;">TEAM</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<div class="hero-image">
+</div>
 
-    <div class="hero-image">
-      <div class="container hero-text">
-       <h1 class="display-2 hero-image-heading" style="font-weight: bold !important;"><span style="color:#FFC222;">—</span><br>TEAM</h1>
+<div class="container hero-text" style="  display: flex;align-items: center;justify-content: center;">
+ <h1 class="display-2 hero-image-heading" style="font-weight: bold !important;"> TEAM  <span style="color: #FFC222" id="value">2021</span></h1>
+</div>
+
+<div class="container">
+
+<h1 class="display-3" data-aos="fade-up"><b><span style="color: #FFC222">BOARD</span> MEMBERS</b><h1>
+  <hr style="background-color:#FFC222; height:2px; width:40%; align:center;" data-aos="fade-up"><br><br>
+<div class="row">
+          <div class="column2">
+    <div class="card"  id="section3" data-aos="zoom-in">
+      <img src="naman.jpeg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
+      <div class="container">
+        <h2 style="text-align:center;">Naman <br> Bhasin</h2>
+        <p class="title" style="text-align:center;">President</p>
+        <a href="https://www.linkedin.com/in/naman-bhasin-19ab86194" class="fa fa-linkedin" style=""></a>
+        <a href="https://www.instagram.com/bhasin.naman/" class="fa fa-instagram" style=""></a>
+        <a href="mailto:naman.bhasin1999@gmail.com" class="fa fa-google" style=""></a>
       </div>
     </div>
-
-
-    <div class="container">
-
-    <h1 class="display-3" data-aos="fade-up"><b><span style="color: #FFC222">BOARD</span> MEMBERS</b><h1>
-      <hr style="background-color:#FFC222; height:2px; width:40%; align:center;" data-aos="fade-up"><br><br>
-    <div class="row">
-
-      <div class="column2">
-  <div class="card"  id="section3" data-aos="zoom-in">
-  <img src="naman.jpeg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
-  <div class="container">
-    <h2 style="text-align:center;">Naman <br> Bhasin</h2>
-    <p class="title" style="text-align:center;">President</p>
-    <a href="https://www.linkedin.com/in/naman-bhasin-19ab86194" class="fa fa-linkedin" style=""></a>
-    <a href="https://www.instagram.com/bhasin.naman/" class="fa fa-instagram" style=""></a>
-    <a href="mailto:naman.bhasin1999@gmail.com" class="fa fa-google" style=""></a>
   </div>
+          <div class="column2">
+    <div class="card" data-aos="zoom-in">
+      <img src="ri.jpeg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
+      <div class="container">
+        <h2 style="text-align:center;">Rishik Jhunjhunwala</h2>
+        <p class="title" style="text-align:center;">Vice President</p>
+        <a href="https://www.linkedin.com/in/rishik-j-2ab482124/" class="fa fa-linkedin" style=""></a>
+        <a href="https://www.instagram.com/rishikk_/" class="fa fa-instagram" style=""></a>
+        <a href="mailto:rishikj29@gmail.com" class="fa fa-google" style=""></a>
+      </div>
+    </div>
   </div>
-  </div>
-
   <div class="column2">
-<div class="card" data-aos="zoom-in">
-<img src="ri.jpeg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
-<div class="container">
-<h2 style="text-align:center;">Rishik Jhunjhunwala</h2>
-<p class="title" style="text-align:center;">Vice President</p>
-<a href="https://www.linkedin.com/in/rishik-j-2ab482124/" class="fa fa-linkedin" style=""></a>
-<a href="https://www.instagram.com/rishikk_/" class="fa fa-instagram" style=""></a>
-<a href="mailto:rishikj29@gmail.com" class="fa fa-google" style=""></a>
-</div>
-</div>
-</div>
-
-<div class="column2">
 <div class="card"  id="section3" data-aos="zoom-in">
 <img src="ani.jpg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
 <div class="container">
@@ -130,7 +136,6 @@
 </div>
 </div>
 </div>
-
 <div class="column2">
 <div class="card" data-aos="zoom-in">
 <img src="shagun.jpeg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
@@ -143,7 +148,6 @@
 </div>
 </div>
 </div>
-
 <div class="column2">
 <div class="card"  id="section3" data-aos="zoom-in">
 <img src="manit.jpg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
@@ -156,7 +160,6 @@
 </div>
 </div>
 </div>
-
 <div class="column2">
 <div class="card"  id="section3" data-aos="zoom-in">
 <img src="charvy.jpg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
@@ -169,34 +172,47 @@
 </div>
 </div>
 </div>
+          <div class="column2">
+    <div class="card" data-aos="zoom-in">
+      <img src="mp.jpeg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
+      <div class="container">
+        <h2 style="text-align:center;">Mrinmoy Paul</h2>
+        <p class="title" style="text-align:center;">Team <br> Coordinator</p>
+        <a href="https://www.linkedin.com/in/mrinmoy-paul-35601416b" class="fa fa-linkedin" style=""></a>
+        <a href="https://www.instagram.com/mrinmoy_paul_19/?hl=en" class="fa fa-instagram" style=""></a>
+        <a href="mailto:paulmrinmoy656@gmail.com" class="fa fa-google" style=""></a>
+      </div>
+    </div>
+  </div>
+</div>
 
-<div class="column2">
-<div class="card" data-aos="zoom-in">
-<img src="mp.jpeg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
-<div class="container">
-<h2 style="text-align:center;">Mrinmoy Paul</h2>
-<p class="title" style="text-align:center;">Team <br> Coordinator</p>
-<a href="https://www.linkedin.com/in/mrinmoy-paul-35601416b" class="fa fa-linkedin" style=""></a>
-<a href="https://www.instagram.com/mrinmoy_paul_19/?hl=en" class="fa fa-instagram" style=""></a>
-<a href="mailto:paulmrinmoy656@gmail.com" class="fa fa-google" style=""></a>
-</div>
-</div>
-</div>
-</div>
+  <div class="row">
 
-<div class="column2">
-<div class="card" data-aos="zoom-in">
-<img src="roop.jpg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
-<div class="container">
-<h2 style="text-align:center;">Sreeruup Chowdhury</h2>
-<p class="title" style="text-align:center;">Media Head</p>
-<a href="https://www.linkedin.com/in/sreeruup-chowdhury-67679b88" class="fa fa-linkedin" style=""></a>
-<a href="#" class="fa fa-instagram" style=""></a>
-<a href="mailto:roop.abira@gmail.com" class="fa fa-google" style=""></a>
+          <div class="column2">
+    <div class="card" data-aos="zoom-in">
+      <img src="keer.jpg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
+      <div class="container">
+        <h2 style="text-align:center;">Keerthan Raj</h2>
+        <p class="title" style="text-align:center;">Technical <br> Head</p>
+        <a href="https://www.linkedin.com/in/keerthan-raj-mateti-9ba9651bb" class="fa fa-linkedin" style=""></a>
+        <a href="https://instagram.com/keerthanraj.m?igshid=1g7f543gclg1s" class="fa fa-instagram" style=""></a>
+        <a href="mailto:keerthanraj90@gmail.com" class="fa fa-google" style=""></a>
+      </div>
+    </div>
 </div>
-</div>
-</div>
-<div class="column2">
+          <div class="column2">
+    <div class="card" data-aos="zoom-in">
+      <img src="roop.jpg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
+      <div class="container">
+        <h2 style="text-align:center;">Sreeruup Chowdhury</h2>
+        <p class="title" style="text-align:center;">Media Head</p>
+        <a href="https://www.linkedin.com/in/sreeruup-chowdhury-67679b88" class="fa fa-linkedin" style=""></a>
+        <a href="#" class="fa fa-instagram" style=""></a>
+        <a href="mailto:roop.abira@gmail.com" class="fa fa-google" style=""></a>
+      </div>
+    </div>
+  </div>
+  <div class="column2">
 <div class="card" data-aos="zoom-in">
 <img src="sahil.jpeg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
 <div class="container">
@@ -208,18 +224,18 @@
 </div>
 </div>
 </div>
-<div class="column2">
-<div class="card" data-aos="zoom-in">
-<img src="shre.jpg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
-<div class="container">
-<h2 style="text-align:center;">Shreyas Palod</h2>
-<p class="title" style="text-align:center;">Finance & Purchase Head</p>
-<a href="https://www.linkedin.com/in/shreyas-palod-b2467918b" class="fa fa-linkedin" style=""></a>
-<a href="https://instagram.com/shreyas.palod?igshid=4jnee1v8s7i5" class="fa fa-instagram" style=""></a>
-<a href="mailto:shreyas.palod12@gmail.com" class="fa fa-google" style=""></a>
-</div>
-</div>
-</div>
+          <div class="column2">
+    <div class="card" data-aos="zoom-in">
+      <img src="shre.jpg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
+      <div class="container">
+        <h2 style="text-align:center;">Shreyas Palod</h2>
+        <p class="title" style="text-align:center;">Finance & Purchase Head</p>
+        <a href="https://www.linkedin.com/in/shreyas-palod-b2467918b" class="fa fa-linkedin" style=""></a>
+        <a href="https://instagram.com/shreyas.palod?igshid=4jnee1v8s7i5" class="fa fa-instagram" style=""></a>
+        <a href="mailto:shreyas.palod12@gmail.com" class="fa fa-google" style=""></a>
+      </div>
+    </div>
+  </div>
 <div class="column2">
     <div class="card" data-aos="zoom-in">
       <img src="nie.jpg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
@@ -237,6 +253,7 @@
 
 <div class="slogan">
   <h1 class="display-4 slo" style="font-weight:bold !important;">#TogetherWeMakeAChange</h1>
+
 </div>
 
 <br>
@@ -413,9 +430,14 @@
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
         </div>
+
+
+
+
+
+
  </div>
 </div>
-
 <div class="container">
 <br><br>
 <h1 data-aos="fade-up" class="display-3" id="section5"><b><span style="color: #FFC222">TECHNICAL</span> TEAM</b><h1>
@@ -432,7 +454,6 @@
       </div>
     </div>
   </div>
-
   <div class="column2">
     <div class="card">
       <img src="vishal.png" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
@@ -444,7 +465,6 @@
       </div>
     </div>
   </div>
-
   <div class="column2">
     <div class="card">
       <img src="ayush12345.png" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;" id="ayu">
@@ -461,7 +481,7 @@
     <div class="card">
       <img src="ankit.jpg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
       <div class="container">
-        <h2 style="text-align:center;">Ankit <br>Kumar</h2>
+        <h2 style="text-align:center;">Ankit <br>Das</h2>
         <a href="https://www.linkedin.com/in/ankitdas2000" class="fa fa-linkedin" style=""></a>
         <a href="https://www.instagram.com/elysium_controller/" class="fa fa-instagram" style=""></a>
         <a href="ankitkumardas6@gmail.com" class="fa fa-google" style=""></a>
@@ -483,7 +503,6 @@
  </div>
 </div>
 <br><br>
-
 <div class="container">
 
 <h1 data-aos="fade-up" class="display-3" id="section5"><b><span style="color: #FFC222">MARKETING </span>& SALES TEAM</b><h1>
@@ -500,7 +519,6 @@
       </div>
     </div>
   </div>
-
   <div class="column2">
     <div class="card">
       <img src="arnav.jpg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
@@ -512,7 +530,6 @@
       </div>
     </div>
   </div>
-
   <div class="column2">
     <div class="card">
       <img src="pranav.jpg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;" id="ayu">
@@ -525,7 +542,6 @@
       </div>
     </div>
   </div>
-
   <div class="column2">
     <div class="card">
       <img src="dhruv.jpg" alt="Jane" style="width:50%; margin-top:20px; margin-bottom:10px;">
@@ -540,7 +556,6 @@
   </div>
  </div>
 </div>
-
 <br><br><div class="container">
 
 <h1 data-aos="fade-up" class="display-3" id="section5"><b><span style="color: #FFC222">CREATIVE</span> & CORPORATE TEAM</b><h1>
@@ -630,104 +645,116 @@
 </div>
 <br>
 
-<footer class="mainfooter" role="contentinfo">
-  <div class="footer-middle" style="margin: 20px; background-color:#FFC222;color:white;width:100%;margin-left:0px;padding-top:30px;padding-left:80px;overflow:hidden;">
+  <footer class="mainfooter" role="contentinfo">
+    <div class="footer-middle" style="margin: 20px; background-color:#FFC222;color:white;width:100%;margin-left:0px;padding-top:30px;padding-left:80px;overflow:hidden;">
 
-    <div class="row">
-      <div class="col-md-3 col-sm-6">
-        <!--Column1-->
-        <div class="footer-pad">
-          <h3>OUR MISSION</h3>
-          <ul class="list-unstyled">
-            <li><span style="font-weight:bolder;font-size:20px;"><font color="#515356">En</font></span>trepreneurial: - Innovating new methods that help us create sustainable opportunities for all.</li>
-            <li><span style="font-weight:bolder;font-size:20px;"><font color="#515356">Act</font></span>ion: - The experience of working not only towards an uncertainty, but towards a bigger picture that helps us to gain a newer perspective.</li>
-            <li><span style="font-weight:bolder;font-size:20px;"><font color="#515356">Us</font></span>: - A group of individuals coming forth to work for a greater cause</li>
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <!--Column1-->
+          <div class="footer-pad">
+            <h3>OUR MISSION</h3>
+            <ul class="list-unstyled">
+              <li><span style="font-weight:bolder;font-size:20px;"><font color="#515356">En</font></span>trepreneurial: - Innovating new methods that help us create sustainable opportunities for all.</li>
+              <li><span style="font-weight:bolder;font-size:20px;"><font color="#515356">Act</font></span>ion: - The experience of working not only towards an uncertainty, but towards a bigger picture that helps us to gain a newer perspective.</li>
+              <li><span style="font-weight:bolder;font-size:20px;"><font color="#515356">Us</font></span>: - A group of individuals coming forth to work for a greater cause</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <!--Column1-->
+          <div class="footer-pad">
+            <h3>CONTACT US</h3>
+            <p>Email ID: enactus.srmist@gmail.com</p>
+            <p>Address: SRM Nagar, Kattankulathur - 603 203 Chengalpattu District, Tamil Nadu.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <!--Column1-->
+          <div class="footer-pad">
+            <h3>ENACTUS SRM</h3>
+            <ul class="list-unstyled">
+              <li><a style="color:white;" href="index.html">Home</a></li>
+              <li><a style="color:white;" href="#">Team</a></li>
+              <li><a style="color:white;" href="#">Project</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h3>FOLLOW US</h3>
+          <ul class="social-network social-circle" style="padding-left:0px;">
+            <a href="https://www.facebook.com/enactus.srm" class="fa fa-facebook" target="_blank" ></a>
+            <a href="https://www.linkedin.com/company/enactus-srm" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://instagram.com/enactus.srm?igshid=d4hiwo299lun" class="fa fa-instagram" target="_blank"></i></a>
+            <a href="https://youtube.com/channel/UChMeX1fadPvcHpdCgwz8jow" class="fa fa-youtube" target="_blank"></i></a>
           </ul>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6">
-        <!--Column1-->
-        <div class="footer-pad">
-          <h3>CONTACT US</h3>
-          <p>Email ID: enactus@srmist.edu.in</p>
-          <p>Address: SRM Nagar, Kattankulathur - 603 203 Chengalpattu District, Tamil Nadu.
-          </p>
+      <div class="row" style="padding-right:20px;">
+        <div class="col-md-12 copy">
+          <hr>
+          <p class="text-center">&copy; Copyright 2021 - Enactus SRM. All rights reserved.</p>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6">
-        <!--Column1-->
-        <div class="footer-pad">
-          <h3>ENACTUS SRM</h3>
-          <ul class="list-unstyled">
-            <li><a style="color:white;" href="index.html">Home</a></li>
-            <li><a style="color:white;" href="#">Team</a></li>
-            <li><a style="color:white;" href="#">Project</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <h3>FOLLOW US</h3>
-        <ul class="social-network social-circle" style="padding-left:0px;">
-          <a href="https://www.facebook.com/enactus.srm" class="fa fa-facebook"></a>
-          <a href="https://www.linkedin.com/company/enactus-srm" class="fa fa-linkedin"></a>
-          <a href="https://instagram.com/enactus.srm?igshid=d4hiwo299lun" class="fa fa-instagram"></i></a>
-          <a href="https://youtube.com/channel/UChMeX1fadPvcHpdCgwz8jow" class="fa fa-youtube"></i></a>
-        </ul>
-      </div>
     </div>
-    <div class="row" style="padding-right:20px;">
-      <div class="col-md-12 copy">
-        <hr>
-        <p class="text-center">&copy; Copyright 2021 - Enactus SRM. All rights reserved.</p>
-      </div>
     </div>
-  </div>
-  </div>
-</footer>
-
-
-
-
-
+  </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <script>
-        var swiper = new Swiper('.swiper-container', {
-          slidesPerView: 5,
-          spaceBetween: 10,
-          slidesPerGroup: 5,
-          breakpoints: {
-      '200': {
-        slidesPerView: 1,
-        spaceBetween: 10,
-      slidesPerGroup: 1,},
-      '500': {
-        slidesPerView: 3,
-        spaceBetween: 20,
-      slidesPerGroup: 3,},
-      '1000': {
-        slidesPerView: 5,
-        spaceBetween: 10,
-      slidesPerGroup: 5,},
-    },
-          loop: true,
-          loopFillGroupWithBlank: true,
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-          },
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-        });
-        </script>
-        <script>
-      AOS.init();
+    <script type="text/javascript">
+</script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 5,
+      spaceBetween: 10,
+      slidesPerGroup: 5,
+      breakpoints: {
+  '200': {
+    slidesPerView: 1,
+    spaceBetween: 10,
+  slidesPerGroup: 1,},
+  '500': {
+    slidesPerView: 3,
+    spaceBetween: 20,
+  slidesPerGroup: 3,},
+  '1000': {
+    slidesPerView: 5,
+    spaceBetween: 10,
+  slidesPerGroup: 5,},
+},
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
     </script>
+    <script type="text/javascript">
+    function animateValue(obj, start, end, duration) {
+let startTimestamp = null;
+const step = (timestamp) => {
+  if (!startTimestamp) startTimestamp = timestamp;
+  const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+  obj.innerHTML = Math.floor(progress * (end - start) + start);
+  if (progress < 1) {
+    window.requestAnimationFrame(step);
+  }
+};
+window.requestAnimationFrame(step);
+}
 
+const obj = document.getElementById("value");
+animateValue(obj, 0, 2021, 5000);
+    </script>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>

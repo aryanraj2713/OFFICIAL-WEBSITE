@@ -1,61 +1,58 @@
 *{
   font-family: 'Poppins', sans-serif;
 }
-
-
-html, body {
-  height: 100%;
-}
-
+html, body {height: 100%; }
+a.hover:hover {text-decoration: none;}
 .navbar{
   background-color: white !important;
   height:100px;
   font-weight:bold;
 }
-
 .main-logo{
   border-radius: 0 !important;
   height:65px;
   width:130px;
 }
-
 .firstbutton{
   margin-left:729px;
   background-color: #FFC222;
   transition: background-color 0.75s ease;
 }
-
 .firstbutton:hover{
   background-color:#515356;
 }
-
 .secondbutton{
   background-color: #C88A12;
   transition: background-color 0.75s ease;
 }
-
 .secondbutton:hover{
   background-color:#515356;
 }
-
 .thirdbutton{
   background-color:#515356;
 }
-
+.firstbutton{
+  z-index:2;
+}
+.secondbutton{
+  z-index:2;
+}
+.thirdbutton{
+  z-index:2;
+}
 .nav-item{
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 40px;
   padding-right: 40px;
 }
-
 .hero-text{
-  color: white;
-  padding-top: 30px;
+  color: #515356;
+  margin-bottom: 100px;
 }
-
 .hero-image{
   background-image: url("2.jpg");
+  opacity: 0.9;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -64,140 +61,8 @@ html, body {
     background-repeat: repeat;
     background-position: center top; */
     height:430px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
-
-hr{
-  background-color: white;
-  width:80%;
-}
-h4{
-  color:#515356;
-  font-weight:bold !important;
-  font-size:1.7rem !important;
-}
-
-.slogan{
-  height:200px;
-  background-color: #FFC222;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.slo{
-  color:#515356;
-  text-align: center;
-  padding-top: 70px;
-}
-
-.column:hover{
-  opacity: 1;
-  transition: 0.5s ease;
-  transform: scale(1.2);
-
-}
-img{
-   margin-left: auto;
-   margin-right: auto;
-   border-radius: 50%;
-   height:125px;
-}
-
-.row-slider{
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-/* Add some shadows to create a card effect */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  height:100%;
-}
-
-/* Some left and right padding inside the container */
-.container {
-  padding: 0 16px;
-}
-
-.row{
-  display:flex;
-  justify-content:center;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body{
-  /* background-color: #A3CEF1; */
-    overflow-x: hidden;
-  background-color: white;
-}
-
-h2{
-  font-size: 20px !important;
-}
-
-/* Three columns side by side */
-.column1{
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-.column1{
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-.column2{
-  float: left;
-  width: 20%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-.column3{
-  float: left;
-  width: 25%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-.column4{
-  float: left;
-  width: 16%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-.title {
-  color: #515356;
-  font-size: 15px;
-}
-
-.heading{
-  text-align: center;
-}
-
-.display-3{
-  text-align: center;
-  color: black;
-}
-
-footer{
-  font-size:15px !important;
-}
-
 .fa {
   padding: 10px;
   margin-right: 10px;
@@ -210,7 +75,6 @@ footer{
   color: black;
   margin-bottom: 10px;
 }
-
 .fa:hover{
   color: white;
   background: black;
@@ -218,10 +82,125 @@ footer{
   transition: 0.5s ease;
   transform: scale(1.1);
 }
+hr{
+  background-color: white;
+  width:80%;
+}
+h4{
+  color:#515356;
+  font-weight:bold !important;
+  font-size:1.7rem !important;
+}
+.slogan{
+  height:200px;
+  background-color: #FFC222;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.slo{
+  color:#515356;
+  text-align: center;
+  padding-top: 70px;
+}
+.column:hover{
+  opacity: 1;
+  transition: 0.5s ease;
+  transform: scale(1.2);
 
+}
+img{
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 50%;
+   height:125px;
+}
+.row-slider{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height:100%;
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+.row{
+  display:flex;
+  justify-content:center;
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+  /* background-color: #A3CEF1; */
+    overflow-x: hidden;
+  background-color: white;
+}
+h2{
+  font-size: 20px !important;
+}
+
+/* Three columns side by side */
+.column1{
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.column1{
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.column2{
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.column3{
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.column4{
+  float: left;
+  width: 16%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.title {
+  color: #515356;
+  font-size: 15px;
+}
+
+
+.heading{
+  text-align: center;
+}
+.display-3{
+  text-align: center;
+  color: black;
+}
+footer{
+  font-size:15px !important;
+}
 /* Responsiveness */
 @media only screen and (max-width: 500px) {
-
   .column-1{
     width:100%;
     float: none;
@@ -303,11 +282,8 @@ footer{
   .firstbutton{
     margin-left:0px;
   }
-
 }
-
 @media screen and (min-width:501px) and (max-width:1000px) {
-
   .row-slider{
     padding-left: 40px;
     padding-right: 40px;
@@ -335,25 +311,25 @@ footer{
   .video{
     width:70% !important;
    }
-   .slo {
-     font-size: 2.5rem !important;
-   }
-   .footer-middle{
-     padding-left: 10px !important;
-   }
-   .webinar-image{
-     height:500px;
-     width: 40%;
-     margin-left: auto;
-     margin-right: auto;
-   }
-   body{
-     overflow-x: hidden !important;
-   }
-   .fa-linkedin{
-     margin-left: 18px;
-   }
-   .firstbutton{
-     margin-left:0px;
-   }
+.slo {
+  font-size: 2.5rem !important;
+}
+.footer-middle{
+  padding-left: 10px !important;
+}
+.webinar-image{
+  height:500px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+  overflow-x: hidden !important;
+}
+.fa-linkedin{
+  margin-left: 18px;
+}
+.firstbutton{
+  margin-left:0px;
+}
 }

@@ -37,6 +37,7 @@ html, body {height: 100%;
   padding-left: 40px;
   padding-right: 40px;
 }
+
 .hero-text{
   color: white;
   padding-top: 30px;
@@ -107,6 +108,15 @@ html, body {height: 100%;
   display: table;
   clear: both;
 }
+.logo{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height:300px;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .column-1{
   width:50%;
   float:left;
@@ -120,16 +130,6 @@ html, body {height: 100%;
   content: "";
   display: table;
   clear: both;
-}
-
-.logo{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  height:300px;
-  width: 30%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 .webinar-image{
   margin-top: 100px;
@@ -148,18 +148,6 @@ html, body {height: 100%;
 
 }
 
-.slogan{
-  height:200px;
-  background-color: #FFC222;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.slo{
-  color:#515356;
-  text-align: center;
-  padding-top: 70px;
-}
-
 .flip-card {
   background-color: transparent;
   width: 390px;
@@ -167,6 +155,7 @@ html, body {height: 100%;
   perspective: 1000px;
   padding: 15px;
 }
+
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -200,19 +189,18 @@ html, body {height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+
 .flip-card-front {
   background-color: white;
   display: flex;
 align-items: center;
 justify-content: center;
 }
-
 .button{
   display: flex;
 align-items: center;
 justify-content: center;
 }
-
 .flips{
   display: flex;
 align-items: center;
@@ -222,82 +210,6 @@ justify-content: center;
   background-color: #FFc222;
   color: #515356;
   transform: rotateY(180deg);
-}
-
-hr{
-  background-color: white;
-  width:80%;
-}
-h4{
-  color:#515356;
-  font-weight:bold !important;
-  font-size:1.7rem !important;
-}
-
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
-
-.column:hover{
-  opacity: 1;
-  transition: 0.5s ease;
-  transform: scale(1.2);
-
-}
-.columnz {
-  float: left;
-  width: 25%;
-  padding: 20px;
-}
-.columnz{
-  height:300px;
-}
-
-/* Clearfix (clear floats) */
-.rowz::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.imz:hover{
-  opacity: 0.4;
-  transition: 0.5s ease;
-  transform: scale(1.3);
-
-}
-.project-cards{
-  overflow-x: hidden !important;
-}
-
-.button1 {
-  background-color: #FFC222;
-  border: none;
-  color: white;
-  padding: 20px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 40px;
-  margin-top: 100px;
-  margin-bottom: 120px;
-}
-
-.txt{
-  margin-top: 4px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.button1:hover {
-  background-color: white;
-  color: #FFC222;
-  border:1px solid #FFC222;
-  transition: 0.5s ease;
-  transform: scale(1.5);
 }
 
 .fa {
@@ -311,7 +223,6 @@ h4{
   background: white;
   color: black;
 }
-
 .fa:hover{
   color: white;
   background: black;
@@ -319,15 +230,95 @@ h4{
   transition: 0.5s ease;
   transform: scale(1.1);
 }
+hr{
+  background-color: white;
+  width:80%;
+}
+h4{
+  color:#515356;
+  font-weight:bold !important;
+  font-size:1.7rem !important;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.slogan{
+  height:200px;
+  background-color: #FFC222;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.slo{
+  color:#515356;
+  text-align: center;
+  padding-top: 70px;
+}
+.column:hover{
+  opacity: 1;
+  transition: 0.5s ease;
+  transform: scale(1.2);
+
+}
+.columnz {
+  float: left;
+  width: 20%;
+  padding: 20px;
+}
+.columnz{
+  height:300px;
+}
+
+/* Clearfix (clear floats) */
+.rowz::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.imz:hover{
+  opacity: 0.4;
+  transition: 0.5s ease;
+  transform: scale(1.3);
+
+}
+.project-cards{
+  overflow-x: hidden !important;
+}
+.button1 {
+  background-color: #FFC222;
+  border: none;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 40px;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+.txt{
+  margin-top: 4px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.button1:hover {
+  background-color: white;
+  color: #FFC222;
+  border:1px solid #FFC222;
+  transition: 0.5s ease;
+  transform: scale(1.5);
+}
+
+a.hover:hover {text-decoration: none;}
 
 footer{
   overflow-x: hidden !important;
 }
-
-
 /* Responsiveness */
-@media only screen and (max-width: 500px) {
 
+@media only screen and (max-width: 500px) {
   .one{
     background-image: url("2.jpg");
     background-repeat: no-repeat;
@@ -336,7 +327,6 @@ footer{
       height:300px;
       width: 100%;
   }
-
   .two{
     background-image: url("hero2.jpg");
     background-repeat: no-repeat;
@@ -345,7 +335,6 @@ footer{
       height:300px;
       width: 100%;
   }
-
   .three{
     background-image: url("3.jpeg");
     background-repeat: no-repeat;
@@ -354,7 +343,6 @@ footer{
       height:300px;
       width: 100%;
   }
-
   .four{
     background-image: url("4.jpg");
     background-repeat: no-repeat;
@@ -363,22 +351,26 @@ footer{
       height:300px;
       width: 100%;
   }
-
+  .five{
+    background-image: url("6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+      height:300px;
+      width: 100%;
+  }
   .project-image{
     width:200px;
     height:00px;
   }
-
   .flips{
     display: block;
   }
-
   .column-1{
     width:100%;
     float: none;
     padding-left: 20px;
   }
-
   .column-2{
     width:100%;
     float:none;
@@ -386,60 +378,46 @@ footer{
     padding-left: 20px;
     padding-right: 20px;
   }
-
   .about{
     font-size: 3rem !important;
   }
-
   .slo {
     padding-top: 40px;
     font-size: 1.5rem !important;
   }
-
   iframe{
     height: 200px;
     width: 200px;
     margin-left: 25% !important;
   }
-
-
   .footer-middle{
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
-
   .slogan{
     height:100px;
   }
-
-
   .column {
     float: none;
     width: 100%;
     padding-top: 20px;
     padding-left: 40px;
   }
-
   .webinar-image{
     height:300px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
-
   .hero-image-heading{
     font-size: 3.5rem !important;
   }
-
   .counter {
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
   }
-
-
   .counter-description{
     font-size: 1rem !important;
   }
-
   .logo{
     height: 200px;
     margin-top: 20px;
@@ -449,29 +427,21 @@ footer{
     margin-left: auto;
     margin-right: auto;
   }
-
   body{
     overflow-x: hidden !important;
   }
-
   .firstbutton{
     margin-left:0px;
     z-index:2;
   }
-
   .secondbutton{
     z-index:2;
   }
-
-
   .thirdbutton{
     z-index:2;
   }
-
 }
-
 @media screen and (min-width:501px) and (max-width:1000px) {
-
   .info1{
     display: none;
   }
@@ -492,30 +462,37 @@ footer{
     padding-top:10px;
     padding-left: 20px;
   }
-  .slo {
-    font-size: 2.5rem !important;
+  .logo{
+    height: 250px;
+    margin-bottom: 100px;
+    margin-top: 100px;
   }
-  .footer-middle{
-    padding-left: 10px !important;
-  }
-  .webinar-image{
-    height:450px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  body{
-    overflow-x: hidden !important;
-  }
-  .firstbutton{
-    margin-left:0px;
-    z-index:2;
-  }
-  .secondbutton{
-    z-index:2;
-  }
-  .thirdbutton{
-    z-index:2;
-  }
-
+  .video{
+    width:70% !important;
+   }
+.slo {
+  font-size: 2.5rem !important;
+}
+.footer-middle{
+  padding-left: 10px !important;
+}
+.webinar-image{
+  height:450px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+  overflow-x: hidden !important;
+}
+.firstbutton{
+  margin-left:0px;
+  z-index:2;
+}
+.secondbutton{
+  z-index:2;
+}
+.thirdbutton{
+  z-index:2;
+}
 }

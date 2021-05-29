@@ -12,4 +12,4 @@ We currently have three active projects including Project Prakrit, Project Jalad
 
 <h4>© Copyright 2021 - Enactus SRM. All rights reserved.</h4>
 
-<h2>Officially Developed by Ayush Sharma</h2>
+<h2>Officially Developed by Ayush Sharma and The Front End Team with ❤️ . </h2>

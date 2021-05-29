@@ -1,0 +1,306 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+html, body {height: 100%; }
+.navbar{
+  background-color: white !important;
+  height:100px;
+  font-weight:bold;
+}
+.main-logo{
+  height:65px;
+  width:130px;
+}
+.firstbutton{
+  margin-left:729px;
+  background-color: #FFC222;
+  transition: background-color 0.75s ease;
+}
+.firstbutton:hover{
+  background-color:#515356;
+}
+.secondbutton{
+  background-color: #C88A12;
+  transition: background-color 0.75s ease;
+}
+.secondbutton:hover{
+  background-color:#515356;
+}
+.thirdbutton{
+  background-color:#515356;
+}
+.nav-item{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.hero-text{
+  color: white;
+  padding-top: 30px;
+
+}
+.hero-image{
+  background-image: url("hero1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height:300px; */
+    /* background-size: auto;
+    background-repeat: repeat;
+    background-position: center top; */
+    height:400px;
+}
+.columns {
+  margin-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.logo{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height:400px;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.column-1{
+  width:50%;
+  float:left;
+}
+.column-2{
+  width:50%;
+  float:right;
+  padding-top:10px;
+}
+
+.sdg-img{
+  display: inline-block;
+  height:126px !important;
+  width:126px;
+  margin-right:20px;
+}
+
+.webinar-heading{
+  text-align: center;
+  margin-top:100px;
+  margin-bottom:50px;
+}
+.webinar-image{
+  margin-bottom: 50px;
+  height:300px;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 20px black;
+}
+.webinar-image:hover{
+  opacity: 0.4;
+  transition: 0.5s ease;
+  transform: scale(1.3);
+
+}
+.fa {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 20px !important;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: white;
+  color: black;
+}
+.fa:hover{
+  color: white;
+  background: black;
+  text-decoration: none;
+  transition: 0.5s ease;
+  transform: scale(1.1);
+}
+hr{
+  background-color: white;
+  width:80%;
+}
+h4{
+  color:#515356;
+  font-weight:bold !important;
+  font-size:1.7rem !important;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+.slogan{
+  height:200px;
+  background-color: #FFC222;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.slo{
+  color:#515356;
+  text-align: center;
+  padding-top: 70px;
+}
+.column:hover{
+  opacity: 1;
+  transition: 0.5s ease;
+  transform: scale(1.2);
+
+}
+.row-1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsiveness */
+@media only screen and (max-width: 500px) {
+
+  .sdg{
+    float: none;
+    width: 100%;
+    margin-left: 15%;
+    height: 100px !important;
+  }
+
+  .sdg-img{
+    height:80px !important;
+    width:80px !important;
+    margin-right:10px;
+  }
+
+  .column-1{
+    width:100%;
+    float: none;
+    padding-left: 20px;
+  }
+  .column-2{
+    width:100%;
+    float:none;
+    padding-top:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .about{
+    font-size: 3rem !important;
+  }
+  .slo {
+    padding-top: 40px;
+    font-size: 1.5rem !important;
+  }
+  iframe{
+    height: 200px;
+    width: 200px;
+    margin-left: 25% !important;
+  }
+  .footer-middle{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  .slogan{
+    height:100px;
+  }
+  .column {
+    float: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  .webinar-image{
+    height:400px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-image-heading{
+    font-size: 3.5rem !important;
+  }
+  .counter {
+    font-size: 2.5rem !important;
+  }
+  .counter-description{
+    font-size: 1rem !important;
+  }
+  .logo{
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body{
+    overflow-x: hidden !important;
+  }
+  .firstbutton{
+    margin-left:0px;
+  }
+}
+@media screen and (min-width:501px) and (max-width:1000px) {
+
+  .sdg{
+    float: none;
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 50px;
+    height: 130px !important;
+  }
+
+  .sdg-img{
+    height:130px !important;
+    width:130px !important;
+    margin-right:30px;
+  }
+
+  .column-1{
+    width:100%;
+    float: none;
+    padding-left: 20px;
+  }
+  .column-2{
+    width:100%;
+    float:none;
+    padding-top:10px;
+    padding-left: 20px;
+  }
+  .logo{
+    height: 300px;
+  }
+  .video{
+    width:70% !important;
+   }
+.slo {
+  font-size: 2.5rem !important;
+}
+.footer-middle{
+  padding-left: 10px !important;
+}
+.webinar-image{
+  height:500px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+  overflow-x: hidden !important;
+}
+.firstbutton{
+  margin-left:0px;
+}
+}

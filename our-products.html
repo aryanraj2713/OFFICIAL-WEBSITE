@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Our Products</title>
+	<link rel="shortcut icon" type="image/>png" href="black1.png"/ >
+	<link rel="stylesheet" href="our-products.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+
+	<div class="header">
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<img src="enactus%20srm%20logo.png" width="100px">
+				</div>
+				<!--<nav class="navbar navbar-expand-xl navbar-light bg-lignt">
+					<a class="navbar-brand" href="index.html"><img src="black.png" alt="" class="main-logo"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					  <li class="nav-item firstbutton dropdown" >
+						<a class="nav-link" href="#" style="color:white;"  data-toggle="dropdown" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PROJECTS</a>
+					  <ul class="dropdown-menu" role="menu" style="background-color:#515356">
+						 <li style="text-align:center;"><a class="hover" target="_blank" style="color:white;" href="project.html" >JALADHI</a></li>
+						 <li style="text-align:center;"><a class="hover" target="_blank" style="color:white;" href="project_parikrit.html" >PRAKRIT</a></li>
+						 <li style="text-align:center;"><a class="hover" target="_blank" style="color:white;" href="project_flylife.html">FLYLIFE</a></li>
+					  </ul>
+					  </li>
+					  <li class="nav-item secondbutton">
+						<a class="nav-link" href="team.html" style="color:white;">TEAM</a>
+					  </li>
+					  <li class="nav-item thirdbutton">
+						<a class="nav-link" href="#" style="color:white;">HOME</a>
+					  </li>
+					</ul>
+				  </div>
+				</nav>-->
+				<nav>
+					<ul>
+						<li><a href="http://enactussrm.netlify.app/">Home</a> </li>
+						<li><a href="https://enactussrm.netlify.app/project_parikrit.html">Prakrit</a> </li>
+						<li><a href="#bcard">Bags</a> </li>
+						<li><a href="#ecard">Earrings</a> </li>
+						<li><a href="#contacts">CONTACT</a> </li>
+					</ul>
+				</nav>
+				<a href="https://linktr.ee/enactussrm">cart<img src="cart.png" width="30px" height="30px" align="right"></a>
+			</div>
+
+			<div class="row">
+				<div class="col-2">
+					<h1>Presenting Project <span style="color: orangered !important;">Prakrit</span><br>Check out Products</h1>
+					<p>One of the most demanded product, The paper bag. Built for comfort and durability, and for the environment, the paper bag offers unforeseen carrying capacity.
+						<br> </p>
+					<a href="https://linktr.ee/enactussrm" class="btn">Explore now &#8594;</a>
+				</div>
+				<div class="col-2">
+					<img src="logo1.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<marquee style="background: #4a4a4a; height: 50px">
+		<a href="https://www.flipkart.com/" target="_blank">
+			<p style="margin: 15px 0px 10px 0px; color: floralwhite;height:20px"> Sale is Live : Get minimum 50% off</p>
+		</a>
+	</marquee>
+	<!--------featured categories-------->
+
+	<div class="categories">
+		<div id="bcard" class="cards">
+			<div class="card fill-orange" data-card="0">
+				<div><img src="final%20bag-1.png"></div>
+				<div class="card__detail" style="color: #00A4CCFF">Small:
+					<br>
+					<br>With Ropes - ₹105/ kg
+					<br>Without Ropes - ₹88/kg
+					<br>Description: 1kg = 24 bags
+				</div>
+			</div>
+			<div class="card fill-blue" data-card="1">
+				<div><img src="new%20bag%20hori%20flip-edit.jpg"></div>
+				<div class="card__detail" style="color: #FC6A08">Medium:
+					<br>
+					<br>With Ropes - ₹100/ kg
+					<br>Without Ropes - ₹86/kg
+					<br>Description: 1kg = 20 bags</div>
+			</div>
+			<div class="card fill-green" data-card="2">
+				<div><img src="top-edit.png"></div>
+				<div class="card__detail" style="color: darkred">Large:
+					<br>
+					<br>With Ropes - ₹95/ kg
+					<br>Without Ropes - ₹90/kg
+					<br>Description: 1kg = 16 bags</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+	<script>
+		/*
+															  @method Cards
+															  @description this is for label based radio navigation to change the labels style to 'active'
+															 */
+		const Cards = ((() => {
+			/*
+			 * @description dom loaded event listener
+			 */
+			window.addEventListener('DOMContentLoaded', () => {
+				setTimeout(init, 1)
+			}, true);
+
+			/*
+			 * @method init
+			 * @parameter e {event}
+			 * @description initiates event listeners on all cards
+			 */
+			function init(e) {
+				if (document.querySelector(".cards")) {
+					let cards = document.querySelector(".cards");
+					cards.addEventListener('click', clicked, false);
+					document.querySelectorAll(".cards .card")[1].click();
+				}
+			}
+
+			/*
+			 * @method clicked
+			 * @parameter e {event}
+			 * @description this is the callback from the assigned event listener binding
+			 */
+			function clicked(e) {
+				let card = e.target;
+				if (card.getAttribute("data-card")) {
+					rearrange(card.getAttribute("data-card"));
+				}
+			}
+
+			/*
+			 * @method rearrange
+			 * @parameter card {object}
+			 * @description this is the callback from the assigned event listener binding
+			 */
+			function rearrange(card) {
+				let cards = document.querySelectorAll(".cards .card");
+				for (let n = 0; n < cards.length; n++) {
+					cards[n].classList.remove("card--left");
+					cards[n].classList.remove("card--center");
+					cards[n].classList.remove("card--right");
+				}
+				cards[card].classList.add("card--center");
+				if (card == 0) {
+					cards[2].classList.add("card--left");
+					cards[1].classList.add("card--right");
+				}
+				if (card == 1) {
+					cards[0].classList.add("card--left");
+					cards[2].classList.add("card--right");
+				}
+				if (card == 2) {
+					cards[1].classList.add("card--left");
+					cards[0].classList.add("card--right");
+				}
+			}
+
+			return {
+				init
+			}
+		})());
+
+	</script>
+	<div class="container">
+	<div id="ecard" class="flips project-cards">
+		<div class="flip-card" data-aos="fade-right">
+			<div class="flip-card-inner">
+				<div class="flip-card-front">
+					<img class="project-image" src="Earring%201.jpg" alt="Avatar" style="width:300px;height:300px;padding:50px;">
+				</div>
+				<div class="flip-card-back">
+					<h1 class="info-heading"><span style="color:white;">Denim Earrings</span></h1>
+					<p class="info">• Ever wondered what to wear in your ears which go above that denim jacket? Think no more, for our in our newest arrival, we present you with our denim earrings. Soft and trendy, these go well with almost all of your outfits and we are more than happy to provide you with these.<span class="info1">•	As always, these are for a greater cause, for the women’s of Anjur who are in poverty due to the lockdown. </span></p>
+					<!--<div class="button">
+						<a href="project.html">
+							<button type="button" class="btn btn-outline-light btn-lg">Learn More</button>
+						</a>
+					</div>-->
+				</div>
+			</div>
+		</div>
+		<div class="flip-card" data-aos="fade-up">
+			<div class="flip-card-inner">
+				<div class="flip-card-front">
+					<img class="project-image" src="IMG_20210722_195325_Bokeh.jpg" alt="Avatar" style="width:300px;height:300px;padding:50px;">
+				</div>
+				<div class="flip-card-back">
+					<h1 class="info-heading"><span style="color:white;">Satin Earrings</span></h1>
+					<p class=info>• These are also easy to clean and are durable so that you don’t have to worry about degradation .These earrings are meant for the dress you’re too shy to wear, these earrings offer you an incredible amount of comfort in terms of softness, and a luxurious feel to you and your dress.<span class="info1">These are also easy to clean and are durable so that you don’t have to worry about degradation . </span></p>
+					<!--<div class="button">
+						<a href="project_parikrit.html">
+							<button type="button" class="btn btn-outline-light btn-lg">Learn More</button>
+						</a>
+					</div>-->
+				</div>
+			</div>
+		</div>
+		<div class="flip-card" data-aos="fade-left">
+			<div class="flip-card-inner">
+				<div class="flip-card-front">
+					<img class="project-image" src="IMG_20210722_195720.jpg" alt="Avatar" style="width:300px;height:300px;padding:50px;">
+				</div>
+				<div class="flip-card-back">
+					<h1 class="info-heading"><span style="color:white;">Cotton Earrings</span></h1>
+					<p class=info><span class="info1">•	What could be better than your mango yellow top, or that yellow kurti? A pair of earrings that go with them. We present to you the cotton earrings, coloured to a bright mango yellow.</span> This cotton is light in weight for your ears, gives it a great sense of fashion and is washable. No colour fade for you. </p>
+					<!--<div class="button">
+						<a href="project_flylife.html">
+							<button type="button" class="btn btn-outline-light btn-lg">Learn More</button>
+						</a>
+					</div>-->
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="flips">
+		<h1 class="display-2 about" data-aos="fade-up" style="font-weight:bold !important;margin-top:100px;"><span style="color:#515356;"></span><span style="color:#FFC222;">S</span>PONSORS</h1>
+	</div>
+	<br>
+	<br>
+
+	<div style="position: relative; left: 8%;"  class="rowz container">
+		<div class="columnz flips">
+			<img class="imz" src="images.jpeg" style="width:100%;" data-aos="fade-right">
+		</div>
+		<div class="columnz flips">
+			<img class="imz" src="BAZAAR-LOGO-TEXT.png" style="width:100%" data-aos="fade-up">
+		</div>
+		<div class="columnz flips">
+			<img class="imz" src="KPMG_logo.svg.png" style="width:100%" data-aos="fade-left">
+		</div>
+		<div class="columnz flips">
+			<img class="imz" src="images.png" style="width:100%" data-aos="fade-left">
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<div class="container flips">
+		<a href="https://linktr.ee/enactussrm" target="_blank">
+			<button class="button1">
+				<h3 class="display-5 txt">Shop Now</h3></button>
+		</a>
+	</div>
+
+	<footer id="contacts" class="mainfooter" role="contentinfo">
+		<div class="footer-middle" style="margin: 20px; background-color:#FFC222;color:white;width:100%;margin-left:0px;padding-top:30px;padding-left:80px;overflow:hidden;">
+
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<!--Column1-->
+					<div class="footer-pad">
+						<h4>OUR MISSION</h4>
+						<ul class="list-unstyled">
+							<li><span style="font-weight:bolder;font-size:20px;">
+                  <font color="#515356">En</font>
+                </span>trepreneurial: - Innovating new methods that help us create sustainable opportunities for all.
+							</li>
+							<li><span style="font-weight:bolder;font-size:20px;">
+                  <font color="#515356">Act</font>
+                </span>ion: - The experience of working not only towards an uncertainty, but towards a bigger picture that helps us to gain a newer perspective.</li>
+							<li><span style="font-weight:bolder;font-size:20px;">
+                  <font color="#515356">Us</font>
+                </span>: - A group of individuals coming forth to work for a greater cause</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<!--Column1-->
+					<div class="footer-pad">
+						<h4>CONTACT US</h4>
+						<p>Email ID: enactus.srmist@gmail.com</p>
+						<p>Address: SRM Nagar, Kattankulathur - 603 203 Chengalpattu District, Tamil Nadu.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<!--Column1-->
+					<div class="footer-pad">
+						<h4>ENACTUS SRM</h4>
+						<ul class="list-unstyled">
+							<li><a style="color:white;" href="index.html">Home</a></li>
+							<li><a style="color:white;" href="team.html">Team</a></li>
+							<li><a style="color:white;" href="#">Project</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<h4>FOLLOW US</h4>
+					<ul class="social-network social-circle" style="padding-left:0px;">
+						<a href="https://www.facebook.com/enactus.srm" class="fa fa-facebook" target="_blank"></a>
+						<a href="https://www.linkedin.com/company/enactus-srm" class="fa fa-linkedin" target="_blank"></a>
+						<a href="https://instagram.com/enactus.srm?igshid=d4hiwo299lun" class="fa fa-instagram" target="_blank"></a>
+						<a href="https://youtube.com/channel/UChMeX1fadPvcHpdCgwz8jow" class="fa fa-youtube" target="_blank"></a>
+					</ul>
+				</div>
+			</div>
+			<div class="row" style="padding-right:20px;">
+				<div class="col-md-12 copy">
+					<hr>
+					<p class="text-center">&copy; Copyright 2021 - Enactus SRM. All rights reserved.</p>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+
+
+
+
+</body>
+
+</html>

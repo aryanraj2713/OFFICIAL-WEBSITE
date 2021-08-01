@@ -1,0 +1,419 @@
+*{
+    font-family: 'Poppins', sans-serif;
+  }
+  html, body {height: 100%; }
+  .navbar{
+    background-color: white !important;
+    height:100px;
+    font-weight:bold;
+  }
+  .main-logo{
+    height:65px;
+    width:130px;
+  }
+  .firstbutton{
+    margin-left:729px;
+    background-color: #FFC222;
+    transition: background-color 0.75s ease;
+  }
+  .firstbutton:hover{
+    background-color:#515356;
+  }
+  .secondbutton{
+    background-color: #C88A12;
+    transition: background-color 0.75s ease;
+  }
+  .secondbutton:hover{
+    background-color:#515356;
+  }
+  .thirdbutton{
+    background-color:#515356;
+  }
+  .nav-item{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .hero-text{
+    color: white;
+    padding-top: 30px;
+  
+  }
+  .hero-image{
+    background-image: url("hero1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* height:300px; */
+      /* background-size: auto;
+      background-repeat: repeat;
+      background-position: center top; */
+      height:400px;
+  }
+  .columns {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    float: left;
+    width: 33.33%;
+  }
+  
+  .row-1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Clear floats after the columns */
+  .rows:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .logo{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height:350px;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .column-1{
+    width:50%;
+    float:left;
+  }
+  .column-2{
+    width:50%;
+    float:right;
+    padding-top:10px;
+  }
+  .webinar-heading{
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:50px;
+  }
+  .webinar-image{
+    margin-bottom: 50px;
+    height:300px;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 20px black;
+  }
+  .webinar-image:hover{
+    opacity: 0.4;
+    transition: 0.5s ease;
+    transform: scale(1.3);
+  
+  }
+  .fa {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 20px !important;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: white;
+    color: black;
+  }
+  .fa:hover{
+    color: white;
+    background: black;
+    text-decoration: none;
+    transition: 0.5s ease;
+    transform: scale(1.1);
+  }
+  hr{
+    background-color: white;
+    width:80%;
+  }
+  h4{
+    color:#515356;
+    font-weight:bold !important;
+    font-size:1.7rem !important;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  .slogan{
+    height:200px;
+    background-color: #FFC222;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .slo{
+    color:#515356;
+    text-align: center;
+    padding-top: 70px;
+  }
+  .columnz {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+  .columnz{
+    height:300px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .rowz::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .imz:hover{
+    opacity: 0.4;
+    transition: 0.5s ease;
+    transform: scale(1.3);
+  
+  }
+  .flips{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .column:hover{
+    opacity: 1;
+    transition: 0.5s ease;
+    transform: scale(1.2);
+  
+  }
+  
+  .sdg-img{
+    display: inline-block;
+    height:126px !important;
+    width:126px;
+    margin-right:20px;
+  }
+  
+  /* Responsiveness */
+  @media only screen and (max-width: 500px) {
+  
+    .sdg{
+      float: none;
+      width: 100%;
+      margin-left: 20%;
+      margin-top: 50px;
+      height: 130px !important;
+    }
+  
+    .sdg-img{
+      height:130px !important;
+      width:130px !important;
+      margin-right:30px;
+    }
+  
+  
+    .column-1{
+      width:100%;
+      float: none;
+      padding-left: 20px;
+    }
+    .column-2{
+      width:100%;
+      float:none;
+      padding-top:10px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .about{
+      font-size: 3rem !important;
+    }
+    .slo {
+      padding-top: 40px;
+      font-size: 1.5rem !important;
+    }
+    iframe{
+      height: 200px;
+      width: 200px;
+      margin-left: 25% !important;
+    }
+    .footer-middle{
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+    }
+    .slogan{
+      height:100px;
+    }
+    .column {
+      float: none;
+      width: 100%;
+      padding-top: 20px;
+      padding-left: 40px;
+    }
+    .webinar-image{
+      height:400px;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .hero-image-heading{
+      font-size: 3.5rem !important;
+    }
+    .counter {
+      font-size: 2.5rem !important;
+    }
+    .counter-description{
+      font-size: 1rem !important;
+    }
+    .logo{
+      height: 200px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    body{
+      overflow-x: hidden !important;
+    }
+    .firstbutton{
+      margin-left:0px;
+    }
+  
+  }
+  @media screen and (min-width:501px) and (max-width:1000px) {
+  
+    .firstbutton{
+      margin-left:0px;
+    }
+  
+    .sdg{
+      float: none;
+      width: 100%;
+      margin-left: 20%;
+      margin-top: 50px;
+      height: 130px !important;
+    }
+  
+    .sdg-img{
+      height:130px !important;
+      width:130px !important;
+      margin-right:30px;
+    }
+  
+    .column-1{
+      width:100%;
+      float: none;
+      padding-left: 20px;
+    }
+    .column-2{
+      width:100%;
+      float:none;
+      padding-top:10px;
+      padding-left: 20px;
+    }
+    .logo{
+      height: 200px;
+    }
+    .video{
+      width:70% !important;
+     }
+  .slo {
+    font-size: 2.5rem !important;
+  }
+  .footer-middle{
+    padding-left: 10px !important;
+  }
+  .webinar-image{
+    height:500px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body{
+    overflow-x: hidden !important;
+  }
+  }
+  @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
+
+.fcards {
+  color: #555;
+  background: #222;
+  text-align: center;
+  font-family: "Roboto Mono";
+  padding: 1em;
+}
+
+.fcards h1 {
+  font-size: 2.2em;
+}
+
+.flip {
+  position: relative;
+}
+.flip > .front,
+.flip > .back {
+  display: block;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 0.5s;
+  transition-property: transform, opacity;
+}
+.flip > .front {
+  transform: rotateY(0deg);
+}
+.flip > .back {
+  position: absolute;
+  opacity: 0;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  transform: rotateY(-180deg);
+}
+.fcards .flip:hover > .front {
+  transform: rotateY(180deg);
+}
+.fcards .flip:hover > .back {
+  opacity: 1;
+  transform: rotateY(0deg);
+}
+.fcards .flip.flip-vertical > .back {
+  transform: rotateX(-180deg);
+}
+.fcards .flip.flip-vertical:hover > .front {
+  transform: rotateX(180deg);
+}
+.fcards .flip.flip-vertical:hover > .back {
+  transform: rotateX(0deg);
+}
+
+.fcards .flip {
+  position: relative;
+  display: inline-block;
+  margin-right: 2px;
+  margin-bottom: 1em;
+  width: 400px;
+}
+.fcards .flip > .front,
+.fcards .flip > .back {
+  display: block;
+  color: white;
+  width: inherit;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 220px;
+  padding: 1em 2em;
+  background: #313131;
+  border-radius: 10px;
+}
+.fcards .flip > .front p,
+.fcards .flip > .back p {
+  font-size: 0.9125rem;
+  line-height: 160%;
+  color: #999;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04), 3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04), 0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04), 7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04), 9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04), 11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04), 13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04), 0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04), 17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04), 19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);
+}

@@ -42,7 +42,7 @@ html, body {height: 100%; }
 
 }
 .hero-image{
-  background-image: url("p1.jpg");
+  background-image: url("/Assets/banner2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -57,13 +57,7 @@ html, body {height: 100%; }
   padding-bottom: 30px;
   text-align: center;
   float: left;
-  width: 33.33%;
-}
-
-.row-1:after {
-  content: "";
-  display: table;
-  clear: both;
+  width: 25%;
 }
 
 /* Clear floats after the columns */
@@ -73,9 +67,9 @@ html, body {height: 100%; }
   clear: both;
 }
 .logo{
-  margin-top: 100px;
-  margin-bottom: 100px;
-  height:350px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height:300px;
   width: 30%;
   display: block;
   margin-left: auto;
@@ -90,15 +84,16 @@ html, body {height: 100%; }
   float:right;
   padding-top:10px;
 }
-.webinar-heading{
-  text-align: center;
-  margin-top:100px;
-  margin-bottom:50px;
+.row-1:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .webinar-image{
-  margin-bottom: 50px;
-  height:300px;
-  width: 20%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height:400px;
+  width: 40%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -139,7 +134,7 @@ h4{
 }
 .column {
   float: left;
-  width: 25%;
+  width: 50%;
   padding: 5px;
 }
 .slogan{
@@ -153,33 +148,6 @@ h4{
   text-align: center;
   padding-top: 70px;
 }
-.columnz {
-  float: left;
-  width: 50%;
-  padding: 20px;
-}
-.columnz{
-  height:300px;
-}
-
-/* Clearfix (clear floats) */
-.rowz::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.imz:hover{
-  opacity: 0.4;
-  transition: 0.5s ease;
-  transform: scale(1.3);
-
-}
-.flips{
-  display: flex;
-align-items: center;
-justify-content: center;
-}
-
 .column:hover{
   opacity: 1;
   transition: 0.5s ease;
@@ -197,18 +165,21 @@ justify-content: center;
 /* Responsiveness */
 @media only screen and (max-width: 500px) {
 
+  .firstbutton{
+    margin-left:0px;
+  }
+
   .sdg{
     float: none;
     width: 100%;
-    margin-left: 20%;
-    margin-top: 50px;
-    height: 130px !important;
+    margin-left: 15%;
+    height: 100px !important;
   }
 
   .sdg-img{
-    height:130px !important;
-    width:130px !important;
-    margin-right:30px;
+    height:80px !important;
+    width:80px !important;
+    margin-right:10px;
   }
 
 
@@ -250,8 +221,8 @@ justify-content: center;
     padding-left: 40px;
   }
   .webinar-image{
-    height:400px;
-    width: 60%;
+    height:300px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -259,7 +230,7 @@ justify-content: center;
     font-size: 3.5rem !important;
   }
   .counter {
-    font-size: 2.5rem !important;
+    font-size: 1.5rem !important;
   }
   .counter-description{
     font-size: 1rem !important;
@@ -276,10 +247,6 @@ justify-content: center;
   body{
     overflow-x: hidden !important;
   }
-  .firstbutton{
-    margin-left:0px;
-  }
-
 }
 @media screen and (min-width:501px) and (max-width:1000px) {
 
@@ -287,20 +254,12 @@ justify-content: center;
     margin-left:0px;
   }
 
-  .sdg{
-    float: none;
-    width: 100%;
-    margin-left: 20%;
-    margin-top: 50px;
-    height: 130px !important;
+  .counter {
+    font-size: 2.5rem !important;
   }
-
-  .sdg-img{
-    height:130px !important;
-    width:130px !important;
-    margin-right:30px;
+  .counter-description{
+    font-size: 1rem !important;
   }
-
   .column-1{
     width:100%;
     float: none;
@@ -313,7 +272,9 @@ justify-content: center;
     padding-left: 20px;
   }
   .logo{
-    height: 200px;
+    height: 250px;
+    margin-bottom: 100px;
+    margin-top: 100px;
   }
   .video{
     width:70% !important;
@@ -325,12 +286,109 @@ justify-content: center;
   padding-left: 10px !important;
 }
 .webinar-image{
-  height:500px;
-  width: 40%;
+  height:450px;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 body{
   overflow-x: hidden !important;
 }
+}
+/*body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #F8F005;
+}*/
+.products{
+  font-size: 26px;
+}
+button, button::after {
+  width: 380px;
+  height: 86px;
+  font-size: 46px;
+  font-family: 'Bebas Neue', cursive;
+  background: linear-gradient(45deg, transparent 5%, orange 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  line-height: 88px;
+  box-shadow: 6px 0px 0px #00E6F6;
+  outline: transparent;
+  position: relative;
+  left: 40%;
+}
+
+button::after {
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(80% -6px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 5% 0);
+  
+  content: 'Products';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, orange 5%);
+  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+  clip-path: var(--slice-0);
+}
+
+button:hover::after {
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+  0% {
+    clip-path: var(--slice-1);
+    transform: translate(-20px, -10px);
+  }
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
+  }
+  20% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px);
+  }
+  30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+  }
+  40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+  }
+  50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+  }
+  60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+  }
+  70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+  }
+  80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+  }
+  90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
+  }
 }

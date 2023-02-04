@@ -820,7 +820,7 @@ footer{
       width: 100%;
   }
   .two{
-    background-image: url("hero2.jpg");
+    background-image: url("/Assets/banner2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -828,7 +828,7 @@ footer{
       width: 100%;
   }
   .three{
-    background-image: url("3.jpeg");
+    background-image: url("/Assets/enactus_init1.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -836,7 +836,7 @@ footer{
       width: 100%;
   }
   .four{
-    background-image: url("4.jpg");
+    background-image: url("/Assets/event1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -844,7 +844,7 @@ footer{
       width: 100%;
   }
   .five{
-    background-image: url("6.jpg");
+    background-image: url("/Assets/event3.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

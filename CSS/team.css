@@ -2,12 +2,14 @@
   font-family: 'Poppins', sans-serif;
 }
 html, body {height: 100%; }
+a.hover:hover {text-decoration: none;}
 .navbar{
   background-color: white !important;
   height:100px;
   font-weight:bold;
 }
 .main-logo{
+  border-radius: 0 !important;
   height:65px;
   width:130px;
 }
@@ -29,20 +31,28 @@ html, body {height: 100%; }
 .thirdbutton{
   background-color:#515356;
 }
+.firstbutton{
+  z-index:2;
+}
+.secondbutton{
+  z-index:2;
+}
+.thirdbutton{
+  z-index:2;
+}
 .nav-item{
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 40px;
   padding-right: 40px;
 }
-
 .hero-text{
-  color: white;
-  padding-top: 30px;
-
+  color: #515356;
+  margin-bottom: 100px;
 }
 .hero-image{
-  background-image: url("hero1.jpg");
+  background-image: url("/Assets/group_pic.jpg");
+  opacity: 0.9;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -50,67 +60,8 @@ html, body {height: 100%; }
     /* background-size: auto;
     background-repeat: repeat;
     background-position: center top; */
-    height:400px;
-}
-.columns {
-  margin-top: 20px;
-  padding-bottom: 30px;
-  text-align: center;
-  float: left;
-  width: 33.33%;
-}
-
-/* Clear floats after the columns */
-.rows:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.logo{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  height:400px;
-  width: 40%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.column-1{
-  width:50%;
-  float:left;
-}
-.column-2{
-  width:50%;
-  float:right;
-  padding-top:10px;
-}
-
-.sdg-img{
-  display: inline-block;
-  height:126px !important;
-  width:126px;
-  margin-right:20px;
-}
-
-.webinar-heading{
-  text-align: center;
-  margin-top:100px;
-  margin-bottom:50px;
-}
-.webinar-image{
-  margin-bottom: 50px;
-  height:300px;
-  width: 20%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0px 0px 20px black;
-}
-.webinar-image:hover{
-  opacity: 0.4;
-  transition: 0.5s ease;
-  transform: scale(1.3);
-
+    height:430px;
+    margin-bottom: 20px;
 }
 .fa {
   padding: 10px;
@@ -122,6 +73,7 @@ html, body {height: 100%; }
   border-radius: 50%;
   background: white;
   color: black;
+  margin-bottom: 10px;
 }
 .fa:hover{
   color: white;
@@ -138,11 +90,6 @@ h4{
   color:#515356;
   font-weight:bold !important;
   font-size:1.7rem !important;
-}
-.column {
-  float: left;
-  width: 25%;
-  padding: 5px;
 }
 .slogan{
   height:200px;
@@ -161,29 +108,99 @@ h4{
   transform: scale(1.2);
 
 }
-.row-1:after {
+img{
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 50%;
+   height:125px;
+}
+.row-slider{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height:100%;
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+.row{
+  display:flex;
+  justify-content:center;
+}
+.container::after, .row::after {
   content: "";
-  display: table;
   clear: both;
+  display: table;
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
+body{
+  /* background-color: #A3CEF1; */
+    overflow-x: hidden;
+  background-color: white;
+}
+h2{
+  font-size: 20px !important;
+}
+
+/* Three columns side by side */
+.column1{
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.column1{
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.column2{
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.column3{
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.column4{
+  float: left;
+  width: 16%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.title {
+  color: #515356;
+  font-size: 15px;
+}
+
+
+.heading{
+  text-align: center;
+}
+.display-3{
+  text-align: center;
+  color: black;
+}
+footer{
+  font-size:15px !important;
+}
 /* Responsiveness */
 @media only screen and (max-width: 500px) {
-
-  .sdg{
-    float: none;
-    width: 100%;
-    margin-left: 15%;
-    height: 100px !important;
-  }
-
-  .sdg-img{
-    height:80px !important;
-    width:80px !important;
-    margin-right:10px;
-  }
-
   .column-1{
     width:100%;
     float: none;
@@ -248,26 +265,35 @@ h4{
   body{
     overflow-x: hidden !important;
   }
+  .column2 {
+    width: 62%;
+    display: block;
+  }
+  h1{
+    font-size: 2rem !important;
+  }
+  .row-slider{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .fa-linkedin{
+    margin-left: 8px;
+  }
   .firstbutton{
     margin-left:0px;
   }
 }
 @media screen and (min-width:501px) and (max-width:1000px) {
-
-  .sdg{
-    float: none;
-    width: 100%;
-    margin-left: 20%;
-    margin-top: 50px;
-    height: 130px !important;
+  .row-slider{
+    padding-left: 40px;
+    padding-right: 40px;
   }
-
-  .sdg-img{
-    height:130px !important;
-    width:130px !important;
-    margin-right:30px;
+  .column2{
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
   }
-
   .column-1{
     width:100%;
     float: none;
@@ -280,7 +306,7 @@ h4{
     padding-left: 20px;
   }
   .logo{
-    height: 300px;
+    height: 200px;
   }
   .video{
     width:70% !important;
@@ -299,6 +325,9 @@ h4{
 }
 body{
   overflow-x: hidden !important;
+}
+.fa-linkedin{
+  margin-left: 18px;
 }
 .firstbutton{
   margin-left:0px;

@@ -51,7 +51,7 @@ a.hover:hover {text-decoration: none;}
   margin-bottom: 100px;
 }
 .hero-image{
-  background-image: url("/Assets/group_pic.jpg");
+  background-image: url("../Assets/group_pic.jpg");
   opacity: 0.9;
   background-repeat: no-repeat;
   background-position: center;

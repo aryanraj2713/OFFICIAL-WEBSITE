@@ -44,7 +44,7 @@ html, body {height: 100%;
 
 }
 .one{
-  background-image: url("/Assets/group_pic.jpg");
+  background-image: url("../Assets/group_pic.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -52,7 +52,7 @@ html, body {height: 100%;
     width: 100%;
 }
 .two{
-  background-image: url("/Assets/banner2.jpg");
+  background-image: url("../Assets/banner2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -60,7 +60,7 @@ html, body {height: 100%;
     width: 100%;
 }
 .three{
-  background-image: url("/Assets/enactus_init1.jpeg");
+  background-image: url("../Assets/enactus_init1.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -68,7 +68,7 @@ html, body {height: 100%;
     width: 100%;
 }
 .four{
-  background-image: url("/Assets/event1.jpg");
+  background-image: url("../Assets/event1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -76,7 +76,7 @@ html, body {height: 100%;
     width: 100%;
 }
 .five{
-  background-image: url("/Assets//event3.jpg");
+  background-image: url("../Assets//event3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -85,7 +85,7 @@ html, body {height: 100%;
 }
 
 .six{
-  background-image: url("/Assets/recruitment.jpeg");
+  background-image: url("../Assets/recruitment.jpeg");
   background-repeat: no-repeat;
   background-position: center;
     height: 400px;
@@ -94,7 +94,7 @@ html, body {height: 100%;
   
 }
 .hero-image{
-  background-image: url("/Assets/banner2.jpg");
+  background-image: url("../Assets/banner2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -328,7 +328,7 @@ footer{
 
 @media only screen and (max-width: 500px) {
   .one{
-    background-image: url("Assets/group_pic.jpg");
+    background-image: url("../Assets/group_pic.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -336,7 +336,7 @@ footer{
       width: 100%;
   }
   .two{
-    background-image: url("/Assets/banner2.jpg");
+    background-image: url("../Assets/banner2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -344,7 +344,7 @@ footer{
       width: 100%;
   }
   .three{
-    background-image: url("/Assets/enactus_init1.jpeg");
+    background-image: url("../Assets/enactus_init1.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -352,7 +352,7 @@ footer{
       width: 100%;
   }
   .four{
-    background-image: url("/Assets/event1.jpg");
+    background-image: url("../Assets/event1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -360,7 +360,7 @@ footer{
       width: 100%;
   }
   .five{
-    background-image: url("/Assets/event3.jpg");
+    background-image: url("../Assets/event3.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -369,7 +369,7 @@ footer{
   }
 
   .six{
-    background-image: url("six-1.jpg");
+    background-image: url("../Assets/recruitment.jpeg");
     background-repeat: no-repeat;
     background-position: center;
       height: 300px;

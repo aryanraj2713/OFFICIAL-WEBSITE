@@ -42,7 +42,7 @@ html, body {height: 100%; }
 
 }
 .hero-image{
-  background-image: url("/Assets/banner2.jpg");
+  background-image: url("../Assets/banner2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

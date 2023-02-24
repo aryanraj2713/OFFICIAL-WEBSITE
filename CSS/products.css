@@ -42,7 +42,7 @@
   
   }
   .hero-image{
-    background-image: url("hero1.jpg");
+    background-image: url("../Assets/flylife_top.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
